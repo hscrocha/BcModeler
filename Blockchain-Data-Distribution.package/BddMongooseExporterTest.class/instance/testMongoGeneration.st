@@ -1,12 +1,11 @@
 tests
 testMongoGeneration
 	| output |
-	output := BddMongooseExporter new
-		export: (BddCore new buildModelFrom: ProductDataExample).
+	output := BddMongooseExporter new export: self testModel.
 	self
 		assert: output contents
 		equals:
-			 'var mongoose = require(''mongoose'');
+			'var mongoose = require(''mongoose'');
 var myschema = new mongoose.Schema({
     price: { type: Real },
     photos: { type: Blob },

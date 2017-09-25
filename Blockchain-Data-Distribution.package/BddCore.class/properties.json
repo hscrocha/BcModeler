@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"generators"
+		"generators",
+		"items"
 	],
 	"name" : "BddCore",
 	"type" : "normal"

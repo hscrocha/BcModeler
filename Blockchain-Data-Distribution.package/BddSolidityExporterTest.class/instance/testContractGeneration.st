@@ -1,12 +1,11 @@
 tests
 testContractGeneration
 	| output |
-	output := BddSolidityExporter new
-		export: (BddCore new buildModelFrom: ProductDataExample).
+	output := BddSolidityExporter new export: self testModel.
 	self
 		assert: output contents
-		equals: 
- 'pragma solidity^0.4.16;
+		equals:
+			'pragma solidity^0.4.16;
 
 contract ContractName {
     uint public price;
