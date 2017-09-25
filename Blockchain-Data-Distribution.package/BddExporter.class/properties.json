@@ -5,7 +5,9 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"outStream"
+	],
 	"name" : "BddExporter",
 	"type" : "normal"
 }

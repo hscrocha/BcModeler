@@ -1,4 +1,4 @@
-basic
+private
 extractDbbDataItensFromMethods: aMethodList
 	| lstDbb instance |
 	lstDbb := LinkedList new.
