@@ -1,0 +1,1 @@
+I'm a simple class to export JSON based on the model.

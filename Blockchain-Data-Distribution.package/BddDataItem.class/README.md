@@ -1,0 +1,1 @@
+Container class to store information about a data item modelling and interaction that can be either in the blockchain or local database

@@ -1,0 +1,21 @@
+{
+	"commentStamp" : "HenriqueRocha 8/30/2017 11:16",
+	"super" : "Object",
+	"category" : "Blockchain-Data-Distribution",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"database",
+		"blockchain",
+		"bcType",
+		"dbType",
+		"bcVisibility",
+		"bcConstant",
+		"middleware",
+		"initialValue"
+	],
+	"name" : "BddDataItem",
+	"type" : "normal"
+}
