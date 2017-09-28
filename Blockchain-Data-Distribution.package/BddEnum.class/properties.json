@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HenriqueRocha 9/27/2017 16:08",
+	"super" : "BddDataDefinition",
+	"category" : "Blockchain-Data-Distribution",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"items"
+	],
+	"name" : "BddEnum",
+	"type" : "normal"
+}

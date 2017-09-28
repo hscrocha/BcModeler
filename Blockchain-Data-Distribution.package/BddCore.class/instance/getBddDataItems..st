@@ -1,3 +1,3 @@
 private
-getDbbDataItems: aClass
+getBddDataItems: aClass
 	^ self extractDbbDataItensFromMethods: (self getBddMethodsFromClass: aClass).

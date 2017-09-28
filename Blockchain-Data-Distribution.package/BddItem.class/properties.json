@@ -1,14 +1,12 @@
 {
 	"commentStamp" : "HenriqueRocha 8/30/2017 11:16",
-	"super" : "Object",
+	"super" : "BddDataDefinition",
 	"category" : "Blockchain-Data-Distribution",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"name",
-		"database",
-		"blockchain",
+		"array",
 		"bcType",
 		"dbType",
 		"bcVisibility",
@@ -16,6 +14,6 @@
 		"middleware",
 		"initialValue"
 	],
-	"name" : "BddDataItem",
+	"name" : "BddItem",
 	"type" : "normal"
 }

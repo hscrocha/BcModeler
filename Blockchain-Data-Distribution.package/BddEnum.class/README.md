@@ -1,0 +1,1 @@
+Container class to store enum data. Only used for Solidity (other representations are converted to string).

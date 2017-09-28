@@ -1,3 +1,3 @@
 meta-object-protocol
 bddForOwner
-	^ BddDataItem new name: 'owner'; bcType: 'address'; isBlockchain: true; isDatabase: false; bcVisibility: 'private'.
+	^ BddItem new name: 'owner'; bcType: 'address'; isBlockchain: true; isDatabase: false; bcVisibility: 'private'.

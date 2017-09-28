@@ -1,0 +1,1 @@
+Container class to create a Struct data type for blockchain. This class also has a special representation for JSON (as an object).
