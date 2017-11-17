@@ -2,8 +2,12 @@ meta-object-protocol
 bddForPollEntry
 	| struct |
 	struct := BddStruct new.
-	struct name: 'PollEntry'; isBlockchain: true.
 	struct
+		name: 'PollEntry';
+		isBlockchain: true.
+	struct addClass: PollEntryExample.
+	"It is possible to add each struct item separately"
+	"struct
 		add:
 			(BddItem new
 				name: 'user';
@@ -18,5 +22,5 @@ bddForPollEntry
 			(BddItem new
 				name: 'hasVoted';
 				bcType: 'bool';
-				isBlockchain: true).
+				isBlockchain: true)."
 	^ struct

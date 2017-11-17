@@ -1,0 +1,1 @@
+Simple example of a Poll data modelled as an BDD class

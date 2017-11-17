@@ -1,6 +1,5 @@
 public API
-export: aDbbList
+export: aBddList
 	"Creates a JSON representation of the data that is marked as database "
-	
-	^ self createJsonFromDbbList: aDbbList
-	
+
+	^ self createJsonFromBddList: aBddList

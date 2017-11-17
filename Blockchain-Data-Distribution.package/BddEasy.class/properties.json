@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HenriqueRocha 11/17/2017 10:59",
+	"super" : "Object",
+	"category" : "Blockchain-Data-Distribution",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BddEasy",
+	"type" : "normal"
+}

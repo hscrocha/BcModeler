@@ -1,0 +1,1 @@
+Class containing scripts to easily export a class using BDD. 

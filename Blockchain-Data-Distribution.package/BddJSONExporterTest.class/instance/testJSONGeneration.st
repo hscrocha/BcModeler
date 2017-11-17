@@ -1,7 +1,7 @@
 tests
 testJSONGeneration
 	| output |
-	output := BddJSONExporter new export: self testModel.
+	output := BddJSONExporter new export: self getTestModel.
 	self
 		assert: output contents
 		equals:

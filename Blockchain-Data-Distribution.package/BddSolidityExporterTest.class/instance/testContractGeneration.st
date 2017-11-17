@@ -1,7 +1,7 @@
 tests
 testContractGeneration
 	| output |
-	output := BddSolidityExporter new export: self testModel.
+	output := BddSolidityExporter new export: self getTestModel.
 	self
 		assert: output contents
 		equals:

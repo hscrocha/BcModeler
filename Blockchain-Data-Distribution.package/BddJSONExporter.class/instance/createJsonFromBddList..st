@@ -1,5 +1,5 @@
 private
-createJsonFromDbbList: aBddList
+createJsonFromBddList: aBddList
 	"Creates a JSON representation of the data that is marked as database "
 
 	| subList |

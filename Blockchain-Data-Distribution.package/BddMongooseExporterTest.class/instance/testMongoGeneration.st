@@ -1,7 +1,7 @@
 tests
 testMongoGeneration
 	| output |
-	output := BddMongooseExporter new export: self testModel.
+	output := BddMongooseExporter new export: self getTestModel.
 	self
 		assert: output contents
 		equals:

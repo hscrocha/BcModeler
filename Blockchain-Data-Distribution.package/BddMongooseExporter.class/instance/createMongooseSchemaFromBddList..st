@@ -1,5 +1,5 @@
 private
-createMongooseSchemaFromDbbList: aDbbList
+createMongooseSchemaFromBddList: aBddList
 	"Creates a Mongoose representation of the data that is marked as database "
 
 	outStream
@@ -7,7 +7,7 @@ createMongooseSchemaFromDbbList: aDbbList
 		cr;
 		nextPutAll: 'var myschema = new mongoose.Schema({';
 		cr.
-	aDbbList
+	aBddList
 		do: [ :dbb | 
 			dbb isDatabase
 				ifTrue: [ outStream nextPutAll: '    '.

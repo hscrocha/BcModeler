@@ -9,12 +9,12 @@ asContractData: outStream
 		cr.
 	bcitems
 		do: [ :bdd | 
-			outStream nextPutAll: self spacing , '    '.
+			outStream nextPutAll: (self spacing , '       ').
 			bdd asStructItem: outStream.
 			outStream
 				nextPutAll: ';';
-				cr. ].
+				cr ].
 	outStream
-		nextPutAll: self spacing , '}';
+		nextPutAll: self spacing , '   }';
 		cr.
 	^ outStream

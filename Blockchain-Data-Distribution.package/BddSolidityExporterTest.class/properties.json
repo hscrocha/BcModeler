@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
-	"super" : "TestCase",
-	"category" : "Blockchain-Data-Distribution",
+	"super" : "BddExporterTest",
+	"category" : "Blockchain-Data-Distribution-Test",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

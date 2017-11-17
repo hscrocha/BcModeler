@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "BddExporterTest",
-	"category" : "Blockchain-Data-Distribution-Test",
+	"super" : "Object",
+	"category" : "Blockchain-Data-Distribution-Domain Example",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "BddJSONExporterTest",
+	"name" : "PollEntryExample",
 	"type" : "normal"
 }

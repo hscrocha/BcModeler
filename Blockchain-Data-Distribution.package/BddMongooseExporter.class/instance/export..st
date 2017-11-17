@@ -1,4 +1,3 @@
 public API
 export: aBDDList
-
-	^ self createMongooseSchemaFromDbbList: aBDDList
+	^ self createMongooseSchemaFromBddList: aBDDList
